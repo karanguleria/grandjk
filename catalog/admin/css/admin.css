@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+.fancybox-inner .well { margin-top:auto}
+.tdtextalignright { text-align:right !important;}
+.navbar-fixed-top {*position:relative;}
+
+
+
+
+   /* Large desktop */
+    @media (min-width: 1200px) { 
+.well {margin-top:100px; *margin-top:20px;}
+.fancybox-inner .well { margin-top:auto}
+.date-time {margin-right:75px;}
+.graphs {height:300px;}
+#dynamicbar1 {margin:20px 50px 0 0;}
+
+	}
+     
+        /* Portrait tablet to landscape and desktop */
+    @media (min-width: 980px) and (max-width: 1199px) { 
+.well {margin-top:135px; *margin-top:20px;}
+.fancybox-inner .well { margin-top:auto}
+   .sales {margin:0 10px 0 0;}
+   .sales  ul {margin:0;}
+.graphs {height:300px;}
+.rwd-l-sale{float:left!important;margin:0 15px;}
+.rwd-r-sale{float:right!important;margin:0 -35px;}
+.ga-not-a-style-sales{width:180px;position:relative;margin:50px 0 0;}
+.ga-not-a-style-sales ul{float:none;margin:0;}
+.date-time {display: none; }
+#refresh {margin-right: 50px; margin-top:0 } 
+#totsales {margin-top:10px; height:100px;}
+#header {height:100px; margin-top:20px;}
+.product-info { width:80%;}
+.product-info .container {width:200px;}
+.product-stats {margin:10px 0 0 0}
+#dynamicbar1 {margin:20px 50px 0 0;}
+
+
+	}
+	
+	/* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) { 
+.well {margin-top:auto;}
+#dynamicbar1 {margin:20px 25px 0 0;}
+   #header{height:85px;}
+   .graphs {height:300px;}
+.product-visits{display:none;}
+.sales{width:110px;font-size:14px; margin: 20px 0 0 20px}
+.sales ul {margin:0;}
+.sum{width:100px;}
+#totsales span.title{height:20px;top:-4px;}
+#totsales span.value{font-size:30px;width:120px;}
+#totsales {margin-top:0; height:100px;}
+.product-stats > div{width:110px;}
+.loop{width:38px!important;}
+.product-info{width:75%;}
+.hidden-today{display:block;}
+.graphs{height:450px;}
+.marketplace{top:125px;}
+.close{top:238px;}
+.product-name,.product-info .container{width:200px;}
+#refresh {display:none;}
+.date-time {display: none;}
+
+    
+	}
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { 
+	.well {margin-top:auto;}
+	#dynamicbar1 {margin:20px 25px 0 0;}
+	   #header{height:190px;}
+	   .graphs{height:600px;}
+.graph-pie-class{top:20px;position:relative;float:left!important;width:200px;margin:59px 0 0 40px;}
+.product-purchases{font-size:12px;margin-top:6px;}
+.stats-value{font-size:15px;}
+.product-info{width:100%; margin:0; height:75px;}
+.inner{margin-left:10px;}
+.sales ul {margin:0;}
+.tot-sales{margin-top:0;margin-bottom:-15px;width:250px;font-size:12px;}
+.tot-purchases{margin-top:0;float:left;width:250px;font-size:12px;}
+#totsales span.value{width:105px;}
+#totsales span.title{height:12px; width:105px;}
+#totsales {height:80px; margin-top:-120px !important; width:250px}
+.product-name{width:130px;font-size:12px;}
+.sales{width:96px;font-size:12px;margin: 10px 0; float:none;}
+.sum{width:100px;}
+.product-icon{display:none;}
+.product-info .container{display:none}
+.product-stats {margin:0; float:none}
+.product-stats div ul {margin:0;}
+.product-purchases {margin-top:0;}
+.product-visits, .product-purchases, .product-comments, .product-earnings {width:95px; margin-top:0}
+
+.ga-not-a-style-comments{margin-left:20px!important;}
+.ga-not-a-style-sales{clear:both;}
+.ga-not-a-style-earnings,.ga-not-a-style-purchases{margin-left:0!important;}
+#refresh {display:none;}
+.date-time {display: none;}
+li.li-items {height:45px;}
+
+
+	}
+     
+    /* Landscape phones and down */
+    @media  (max-width: 480px) { 
+	
+.well {margin-top:auto;}
+    
+   #header{height:260px;}
+#navigation{position:relative;}
+.graph-class{margin-top:25px;height:250px;margin-left:30px;}
+
+
+.graphs{height:840px;}
+.ga-not-a-graphs{height:1120px!important;padding-top:20px;}
+.graph-pie-class{margin:-5px 0 20px 70px;}
+.product-info{width:100%;margin:0; float:none}
+#totsales span.value{height:auto;font-size:17px;padding:0;}
+#totalsalesnum{height:auto;}
+#totsales {float:none; margin-top:20px !important;}
+.tot-sales{height:28px;}
+#totsales span.title{position:static;padding:0 15px 0 0;}
+.change{margin-top:0!important;}
+.ga-not-a-top{top:1030px;}
+.ga-not-a-style-purchases{display:block;float:left!important;}
+.product-stats > div{width:25%;}
+#dynamicbar1{clear:both;}
+.hidden-comments{margin-left:0;}
+.tot-purchases{margin-top:15px;height:auto;}
+.rwd-l-sale,.rwd-r-sale{margin:0 10px;}
+ #refresh {
+        display:none;
+    }
+	     .date-time {
+        display: none;
+    }
+
+	}

@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2017, 7:06:37 AM
+    Author     : Karan
+*/
+
+.check-details select {
+    border: 1px solid #fff !important;
+    pointer-events: none !important;   
+}
+
+#pf-body input{
+    visibility: visible  !important ;
+    border: 1px solid #fff;
+    pointer-events: none;   
+}
+.check-details tr td select #country {
+    border: 1px solid #fff !important;
+    pointer-events: none !important;   
+}
+
+
+
